@@ -1,8 +1,6 @@
 import products
 import store
-
-def start(best_buy):
-    """
+"""
     Starts the interactive store menu for the user.
 
     Parameters:
@@ -15,6 +13,8 @@ def start(best_buy):
     - Validates user input strictly
     - Processes the order and prints the total price
     """
+
+def start(best_buy):
     while True:
         print("""
    Store Menu
